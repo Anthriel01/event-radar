@@ -12,7 +12,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -28,7 +28,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -44,7 +44,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -60,7 +60,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -76,7 +76,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -92,7 +92,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -108,7 +108,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -124,7 +124,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -140,7 +140,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -156,7 +156,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -172,7 +172,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -188,7 +188,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -204,7 +204,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -220,7 +220,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -236,7 +236,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -252,7 +252,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -268,7 +268,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -300,7 +300,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -316,7 +316,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -332,7 +332,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -348,7 +348,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -364,7 +364,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -380,7 +380,7 @@ window.EVENTS = [
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   }

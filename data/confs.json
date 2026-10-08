@@ -11,7 +11,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -27,7 +27,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -43,7 +43,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -59,7 +59,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -75,7 +75,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -91,7 +91,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -107,7 +107,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -123,7 +123,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -155,7 +155,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -171,7 +171,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -187,7 +187,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "yapay-zeka",
     "dogrulanmadi": false
   },
@@ -203,7 +203,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -219,7 +219,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -235,7 +235,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -251,7 +251,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -267,7 +267,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -283,7 +283,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -299,7 +299,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -315,7 +315,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -331,7 +331,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -347,7 +347,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -363,7 +363,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "online",
     "kategori": "siber",
     "dogrulanmadi": false
   },
@@ -379,7 +379,7 @@
     "bolge": "global",
     "ucret": "bilinmiyor",
     "sertifika": "bilinmiyor",
-    "format": "bilinmiyor",
+    "format": "yuzyuze",
     "kategori": "siber",
     "dogrulanmadi": false
   }
