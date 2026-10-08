@@ -1,5 +1,5 @@
-   storage_state.json
-   master_token.json
-   .env
-   .cache/
-   __pycache__/
+storage_state.json
+master_token.json
+.env
+.cache/
+__pycache__/
