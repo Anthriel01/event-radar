@@ -1,7 +1,7 @@
-Bugün {BUGUN}. Kaynaklardan {BUGUN} ile {BUGUN+90 gün} arasındaki
-etkinlikleri ve sürekli açık ücretsiz eğitimleri çıkar.
-Çıktı SADECE geçerli bir JSON dizisi olsun, başka metin yok.
-Her kayıt: tur, ad, tarih, tarih_bitis, yer, aciklama (en fazla
-bir cümle), link (kaynağın tam URL'si), kaynak, bolge, ucret,
-sertifika, format, kategori. Bilinmeyen alana null yaz, uydurma.
-URL'si olmayan kaydı ekleme.
+Bugün {BUGUN}. Kaynaklardan, {BUGUN} ile {BITIS} arasında gerçekleşecek etkinlikleri (tur: etkinlik) ve sürekli açık, tarihsiz eğitim/kurs/program fırsatlarını (tur: egitim) çıkar.
+Odak: siber güvenlik ve yapay zeka. Diğer teknoloji konuları ikinci planda, kaynakta varsa ekle (kategori: diger).
+Konum önceliği: İzmir/Manisa (bolge: yakin), sonra Türkiye geneli (turkiye). Çevrim içi küresel ücretsiz eğitimler için bolge: global.
+Çıktı SADECE geçerli bir JSON dizisi olsun; kod bloğu, açıklama veya başka metin yazma.
+Her kayıt şu alanlara sahip olsun: tur, ad, tarih, tarih_bitis, yer, aciklama (kaynakta yazan, en fazla bir cümle, yoksa null), link, kaynak, bolge, ucret, sertifika, format, kategori.
+Değerler: tur = etkinlik|egitim; bolge = yakin|turkiye|global; ucret = ucretli|ucretsiz|bilinmiyor; sertifika = var|yok|bilinmiyor; format = online|yuzyuze|hibrit|bilinmiyor; kategori = siber|yapay-zeka|diger. Tarihler YYYY-MM-DD biçiminde olsun; tarihsiz eğitimlerde tarih ve tarih_bitis null olsun.
+Kurallar: Kaynakta yazmayan hiçbir bilgiyi uydurma; bilinmeyen alana null (ücret, sertifika ve format için "bilinmiyor") yaz. Link, kaynakta geçen gerçek bir sayfa adresi olsun. Linki olmayan kaydı ekleme. Tarihi geçmiş etkinliği ekleme. Aynı etkinliği tekrar etme.
