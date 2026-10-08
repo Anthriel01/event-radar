@@ -1,0 +1,7 @@
+Bugün {BUGUN}. Kaynaklardan {BUGUN} ile {BUGUN+90 gün} arasındaki
+etkinlikleri ve sürekli açık ücretsiz eğitimleri çıkar.
+Çıktı SADECE geçerli bir JSON dizisi olsun, başka metin yok.
+Her kayıt: tur, ad, tarih, tarih_bitis, yer, aciklama (en fazla
+bir cümle), link (kaynağın tam URL'si), kaynak, bolge, ucret,
+sertifika, format, kategori. Bilinmeyen alana null yaz, uydurma.
+URL'si olmayan kaydı ekleme.
