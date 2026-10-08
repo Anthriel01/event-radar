@@ -51,7 +51,7 @@ def main():
                     "tarih_bitis": c.get("endDate"), "yer": yer, "aciklama": None,
                     "link": url, "kaynak": "confs.tech",
                     "bolge": "turkiye" if (country or "").lower() in ("türkiye", "turkiye", "turkey") else "global",
-                    "ucret": "bilinmiyor", "sertifika": "bilinmiyor", "format": "bilinmiyor",
+                    "ucret": "bilinmiyor", "sertifika": "bilinmiyor", "format": {True: "online", False: "yuzyuze"}.get(c.get("online"), "bilinmiyor"),
                     "kategori": kat, "dogrulanmadi": False,
                 })
     OUT.parent.mkdir(exist_ok=True)
