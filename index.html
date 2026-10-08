@@ -337,9 +337,9 @@ h1 { margin: 0 0 4px; font-size: clamp(1.6rem, 4vw, 2rem); font-weight: 900; let
   /* ---------- Filtre durumu ---------- */
   var GROUPS = [
     { key: 'bolge', label: 'Konum', opts: [['', 'Tümü'], ['yakin', 'İzmir / Manisa'], ['turkiye', 'Türkiye'], ['global', 'Global']] },
-    { key: 'ucret', label: 'Ücret', opts: [['', 'Tümü'], ['ucretsiz', 'Ücretsiz'], ['ucretli', 'Ücretli']] },
-    { key: 'sertifika', label: 'Sertifika', opts: [['', 'Tümü'], ['var', 'Sertifikalı']] },
-    { key: 'format', label: 'Katılım', opts: [['', 'Tümü'], ['online', 'Online'], ['yuzyuze', 'Yüzyüze']] },
+    { key: 'ucret', label: 'Ücret', opts: [['', 'Tümü'], ['ucretsiz', 'Ücretsiz'], ['ucretli', 'Ücretli'], ['bilinmiyor', 'Bilinmiyor']] },
+    { key: 'sertifika', label: 'Sertifika', opts: [['', 'Tümü'], ['var', 'Sertifikalı'], ['bilinmiyor', 'Bilinmiyor']] },
+    { key: 'format', label: 'Katılım', opts: [['', 'Tümü'], ['online', 'Online'], ['yuzyuze', 'Yüzyüze'], ['bilinmiyor', 'Bilinmiyor']] },
     { key: 'kategori', label: 'Alan', opts: [['', 'Tümü'], ['siber', 'Siber'], ['yapay-zeka', 'Yapay Zeka'], ['diger', 'Diğer']] }
   ];
   var LABEL = {
@@ -381,8 +381,9 @@ h1 { margin: 0 0 4px; font-size: clamp(1.6rem, 4vw, 2rem); font-weight: 900; let
     if (state.sertifika && e.sertifika !== state.sertifika) return false;
     if (state.kategori && e.kategori !== state.kategori) return false;
     if (state.format) {
-      // Hibrit etkinlik hem online hem yüzyüze filtresinde görünür
-      if (!(e.format === state.format || e.format === 'hibrit')) return false;
+      // Hibrit etkinlik online/yüzyüze filtresinde de görünür; bilinmiyor tam eşleşir
+      var hibritDahil = state.format === 'online' || state.format === 'yuzyuze';
+      if (!(e.format === state.format || (hibritDahil && e.format === 'hibrit'))) return false;
     }
     if (state.q) {
       var hay = [e.ad, e.yer, e.kaynak, e.aciklama].join(' ').toLocaleLowerCase('tr');
@@ -444,6 +445,8 @@ h1 { margin: 0 0 4px; font-size: clamp(1.6rem, 4vw, 2rem); font-weight: 900; let
     bs.appendChild(badge('b-' + e.bolge, LABEL.bolge[e.bolge]));
     if (e.ucret === 'ucretsiz') bs.appendChild(badge('b-ucretsiz', 'Ücretsiz'));
     else if (e.ucret === 'ucretli') bs.appendChild(badge('b-ucretli', 'Ücretli'));
+    else bs.appendChild(badge('', 'Ücret ?'));
+    if (e.format === 'bilinmiyor') bs.appendChild(badge('', 'Katılım ?'));
     if (e.sertifika === 'var') bs.appendChild(badge('b-sertifika', 'Sertifikalı'));
     c.appendChild(bs);
 
